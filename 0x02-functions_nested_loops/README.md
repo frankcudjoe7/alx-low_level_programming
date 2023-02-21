@@ -1,1 +1,1 @@
-This readme is the 0x02 functions folder
+0x02-functions_nested_loops

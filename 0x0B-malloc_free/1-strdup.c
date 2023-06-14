@@ -6,6 +6,7 @@
  * _strdup: returns memory address of duplicated str
  * @str: string to duplicate
  *
+ * Description: Copies str into new and returns mem address
  * Return: 0
  *
  */

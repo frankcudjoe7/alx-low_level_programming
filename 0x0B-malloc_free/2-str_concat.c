@@ -41,10 +41,9 @@ char *str_concat(char *s1, char *s2)
 
 	s2_count = 0;
 
-	for (; index < count; index++)
+	for (; index < count + 1; index++)
 	{
 		string[index] = s2[s2_count];
-		index++;
 	}
 
 	return (string);

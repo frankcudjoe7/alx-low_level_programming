@@ -39,9 +39,9 @@ char *str_concat(char *s1, char *s2)
 	for (index = 0; index < s1_count; index++)
 		string[index] = s1[index];
 
-	index += 1;
+	s2_count = 0;
 
-	for (s2_count = 0; s2_count < (count - s1_count + 1); s2_count++)
+	for (; index < count; index++)
 	{
 		string[index] = s2[s2_count];
 		index++;

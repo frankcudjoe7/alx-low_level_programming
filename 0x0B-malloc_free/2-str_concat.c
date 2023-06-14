@@ -42,7 +42,10 @@ char *str_concat(char *s1, char *s2)
 	index += 1;
 
 	for (s2_count = 0; s2_count < (count - s1_count + 1); s2_count++)
+	{
 		string[index] = s2[s2_count];
+		index++;
+	}
 
 	return (string);
 }

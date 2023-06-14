@@ -2,6 +2,14 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * _strdup: returns memory address of duplicated str
+ * @str: string to duplicate
+ *
+ * Return: 0
+ *
+ */
+
 
 char *_strdup(char *str)
 {
@@ -14,7 +22,7 @@ char *_strdup(char *str)
 	while (str[count] != '\0')
 		count++;
 
-	string = malloc(sizeof(char) * (count * 1));
+	string = malloc(sizeof(char) * (count + 1));
 
 	if (string == NULL)
 		return (NULL);
